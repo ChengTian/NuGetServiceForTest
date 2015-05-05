@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://SERVICE_HOST_PLACEHOLDER/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+  <id>http://SERVICE_HOST_PLACEHOLDER/api/v2/FindPackagesById</id>
+  <title type="text">FindPackagesById</title>
+  <updated>2015-05-01T23:50:34Z</updated>
+  <link rel="self" title="FindPackagesById" href="FindPackagesById" />
+  <entry>
+    <id>http://SERVICE_HOST_PLACEHOLDER/api/v2/Packages(Id='PACKAGE_ID_PLACEHOLDER',Version='PACKAGE_VERSION_PLACEHOLDER')</id>
+    <category term="NuGetGallery.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="V2FeedPackage" href="Packages(Id='PACKAGE_ID_PLACEHOLDER',Version='PACKAGE_VERSION_PLACEHOLDER')" />
+    <title type="text">PACKAGE_ID_PLACEHOLDER</title>
+    <summary type="text"></summary>
+    <updated>2015-05-01T23:05:26Z</updated>
+    <author>
+      <name>NuGetServiceForTest</name>
+    </author>
+    <link rel="edit-media" title="V2FeedPackage" href="Packages(Id='PACKAGE_ID_PLACEHOLDER',Version='PACKAGE_VERSION_PLACEHOLDER')/$value" />
+    <content type="application/zip" src="http://SERVICE_HOST_PLACEHOLDER/api/v2/package/PACKAGE_ID_PLACEHOLDER/PACKAGE_VERSION_PLACEHOLDER" />
+    <m:properties>
+      <d:Version>PACKAGE_VERSION_PLACEHOLDER</d:Version>
+      <d:NormalizedVersion>PACKAGE_VERSION_PLACEHOLDER</d:NormalizedVersion>
+      <d:Copyright>Copyright (C) Microsoft Corporation</d:Copyright>
+      <d:Created m:type="Edm.DateTime">2014-10-02T21:46:16.017</d:Created>
+      <d:Dependencies></d:Dependencies>
+      <d:Description>NuGet package for test only purpose.</d:Description>
+      <d:DownloadCount m:type="Edm.Int32">37557</d:DownloadCount>
+      <d:GalleryDetailsUrl>http://SERVICE_HOST_PLACEHOLDER/packages/PACKAGE_ID_PLACEHOLDER/PACKAGE_VERSION_PLACEHOLDER</d:GalleryDetailsUrl>
+      <d:IconUrl>PACKAGE_ICON_URL_PLACEHOLDER</d:IconUrl>
+      <d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion>
+      <d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion>
+      <d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease>
+      <d:Language>en-US</d:Language>
+      <d:Published m:type="Edm.DateTime">2014-10-02T21:46:16.017</d:Published>
+      <d:PackageHash>PACKAGE_HASH_PLACEHOLDER</d:PackageHash>
+      <d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm>
+      <d:PackageSize m:type="Edm.Int64">PACKAGE_SIZE_PLACEHOLDER</d:PackageSize>
+      <d:ProjectUrl>PACKAGE_PROJECT_URL_PLACEHOLDER</d:ProjectUrl>
+      <d:ReportAbuseUrl>http://www.NugetServiceForTest.org/package/ReportAbuse/PACKAGE_ID_PLACEHOLDER/PACKAGE_VERSION_PLACEHOLDER</d:ReportAbuseUrl>
+      <d:ReleaseNotes m:null="true" />
+      <d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance>
+      <d:Summary m:null="true" />
+      <d:Tags>PACKAGE_TAGS_PLACEHOLDER</d:Tags>
+      <d:Title m:null="true" />
+      <d:VersionDownloadCount m:type="Edm.Int32">13286</d:VersionDownloadCount>
+      <d:MinClientVersion m:null="true" />
+      <d:LastEdited m:type="Edm.DateTime" m:null="true" />
+      <d:LicenseUrl>PACKAGE_LICENSE_URL_PLACEHOLDER</d:LicenseUrl>
+      <d:LicenseNames m:null="true" />
+      <d:LicenseReportUrl m:null="true" />
+    </m:properties>
+  </entry>
+</feed>
